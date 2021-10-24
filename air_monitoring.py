@@ -5,7 +5,7 @@ from datetime import datetime
 import sqlite3
 import signal
 
-MEASUREMENT_INTERVAL = 2
+MEASUREMENT_INTERVAL = 5
 
 # Stuff for BME280
 ADDRESS_BME = 0x76
@@ -33,7 +33,7 @@ with sqlite3.connect('bme.db') as con:
 		"humidity"	REAL
 	);''')
 
-	for i in range(10):
+	while True:
 		current_time = str(datetime.now())
 		data = measure()
 		to_insert = [
