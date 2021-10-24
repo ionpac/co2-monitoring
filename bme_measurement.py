@@ -1,4 +1,4 @@
-import bme380
+import bme280
 import i2c_pwm
 import time
 
