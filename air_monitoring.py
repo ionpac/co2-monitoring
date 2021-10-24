@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import bme280
 import smbus2
 import time
