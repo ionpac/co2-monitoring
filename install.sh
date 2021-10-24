@@ -24,7 +24,7 @@ targetdir=/home/pi/co2monitoring/co2-monitoring
 #mkdir -p $targetdir
 
 exe1=air_monitoring.py
-serv1=co2monitoring.service
+serv1=airmonitoring.service
 
 rsync -raxc --info=name $exe1 $targetdir
 
