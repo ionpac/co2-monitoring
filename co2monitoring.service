@@ -1,0 +1,10 @@
+[Unit]
+Description=AirMonitoring
+
+[Service]
+User=root
+Restart=always
+ExecStart=/usr/local/bin/air_monitoring.py
+
+[Install]
+WantedBy=multi-user.target
