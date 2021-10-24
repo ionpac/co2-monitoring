@@ -1,4 +1,5 @@
 from scd30_i2c import SCD30
+import time
 
 MEASUREMENT_INTERVAL = 2 # seconds
 
