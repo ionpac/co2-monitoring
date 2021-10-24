@@ -19,9 +19,9 @@
 #
 # If you want to relicense this code under another license, please contact info+github@unraveltec.com.
 
-targetdir=/usr/local/bin/
+targetdir=/home/pi/co2monitoring/co2-monitoring
 
-mkdir -p $targetdir
+#mkdir -p $targetdir
 
 exe1=air_monitoring.py
 serv1=co2monitoring.service

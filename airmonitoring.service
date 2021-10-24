@@ -2,9 +2,9 @@
 Description=AirMonitoring
 
 [Service]
-User=root
+User=pi
 Restart=always
-ExecStart=/usr/local/bin/air_monitoring.py
+ExecStart=/home/pi/co2monitoring/co2-monitoring/air_monitoring.py
 
 [Install]
 WantedBy=multi-user.target
